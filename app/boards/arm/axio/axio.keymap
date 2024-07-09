@@ -1,0 +1,28 @@
+/*
+ * Copyright (c) 2020 The ZMK Contributors
+ *
+ * SPDX-License-Identifier: MIT
+ */
+
+#include <behaviors.dtsi>
+#include <dt-bindings/zmk/keys.h>
+
+/ {
+    keymap {
+        compatible = "zmk,keymap";
+
+        default_layer {
+            bindings = <
+                &kp A  &kp B &kp M
+                &kp C &kp D &kp E
+                &kp F  &kp G &kp H
+            >;
+            /* Uncomment and add necessary bindings. This examples is for one encoder
+            sensor-bindings = <&inc_dec_kp PG_UP PG_DN>;
+            */
+        };
+    };
+};
+
+
+

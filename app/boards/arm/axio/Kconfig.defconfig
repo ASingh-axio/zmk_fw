@@ -1,0 +1,20 @@
+# nRF52840-MDK board configuration
+
+# Copyright (c) 2018 makerdiary.com
+# SPDX-License-Identifier: Apache-2.0
+
+#if BOARD_NRF52840_MDK
+
+if BOARD_AXIO
+
+#config BOARD
+#	default "axio"
+
+config BOARD
+	default "axio"
+config BT_CTLR
+	default BT
+
+endif
+
+#endif # BOARD_NRF52840_MDK
