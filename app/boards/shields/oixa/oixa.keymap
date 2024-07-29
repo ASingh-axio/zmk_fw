@@ -14,12 +14,6 @@
         compatible = "zmk,keymap";
 
         default_layer {
-// ------------------------------------------------------------------------------------------------------------
-// |  ESC  |  1  |  2  |  3   |  4   |  5   |                   |  6   |  7    |  8    |  9   |   0   |   `   |
-// |  TAB  |  Q  |  W  |  E   |  R   |  T   |                   |  Y   |  U    |  I    |  O   |   P   |   -   |
-// |  CTRL |  A  |  S  |  D   |  F   |  G   |                   |  H   |  J    |  K    |  L   |   ;   |   '   |
-// | SHIFT |  Z  |  X  |  C   |  V   |  B   |   "["  |  |  "]"  |  N   |  M    |  ,    |  .   |   /   | SHIFT |
-//                     | ALT  | GUI  | LOWER|  SPACE |  | ENTER | RAISE| BSPC  | GUI   |
             bindings = <
     &bt BT_CLR &bt BT_SEL 0  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I          &kp V &kp Z  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I 
     &kp A  &kp S  &kp L  &kp X  &bt BT_NXT  &kp H  &kp J  &kp K                &kp A  &kp S  &kp L  &kp X  &kp B &kp H  &kp J  &kp K

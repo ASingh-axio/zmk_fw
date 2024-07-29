@@ -1,10 +1,10 @@
 # Copyright (c) 2018 makerdiary.com
 # SPDX-License-Identifier: Apache-2.0
 
-if BOARD_AXIO
+if BOARD_LEAP
 
 config ZMK_KEYBOARD_NAME
-    default "axio"
+    default "leap"
 
 if USB_DEVICE_STACK
 
@@ -16,4 +16,4 @@ endif # USB_DEVICE_STACK
 config BT_CTLR
 	default BT
 
-endif #BOARD_AXIO
+endif #BOARD_LEAP
