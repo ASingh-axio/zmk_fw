@@ -1,0 +1,10 @@
+file_format: "1"
+id: leap
+name: leap
+type: board
+arch: arm
+outputs:
+  - usb
+  - ble
+
+

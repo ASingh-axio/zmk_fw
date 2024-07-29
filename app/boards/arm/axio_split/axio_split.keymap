@@ -14,8 +14,8 @@
 
         default_layer {
             bindings = <
-    &bt BT_CLR &bt BT_SEL 0  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I 
-    &kp A  &kp S  &kp L  &kp X  &bt BT_NXT  &kp H  &bt BT_SEL 1  &kp K  
+    &bt BT_CLR &bt BT_SEL 0  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I          &kp V &kp Z  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I 
+    &kp A  &kp S  &kp L  &kp X  &bt BT_NXT  &kp H  &kp J  &kp K                &kp A  &kp S  &kp L  &kp X  &kp B &kp H  &kp J  &kp K
    
             >;
             /* Uncomment and add necessary bindings. This examples is for one encoder

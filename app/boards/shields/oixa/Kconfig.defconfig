@@ -1,0 +1,18 @@
+
+if SHIELD_OIXA_LEFT
+
+config ZMK_KEYBOARD_NAME
+    default "axio!"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif
+
+if SHIELD_OIXA_LEFT || SHIELD_OIXA_RIGHT
+
+config ZMK_SPLIT
+    default y
+
+endif
+

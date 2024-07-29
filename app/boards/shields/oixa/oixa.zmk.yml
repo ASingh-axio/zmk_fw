@@ -1,0 +1,11 @@
+file_format: "1"
+id: oixa
+name: oixa
+type: shield
+
+features:
+  - keys
+  
+siblings:
+  - oixa_left
+  - oixa_right

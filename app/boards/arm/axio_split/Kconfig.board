@@ -1,0 +1,12 @@
+# nRF52840-MDK board configuration
+
+# Copyright (c) 2018 makerdiary.com
+# SPDX-License-Identifier: Apache-2.0
+
+config BOARD_AXIO_SPLIT_LH
+    bool "AXIO_SPLIT LH"
+    depends on SOC_NRF52840_QIAA
+
+config BOARD_AXIO_SPLIT_RH
+    bool "AXIO_SPLIT RH"
+    depends on SOC_NRF52840_QIAA
